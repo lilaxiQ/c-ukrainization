@@ -1,0 +1,49 @@
+/*
+By bl0den 07.02.2024
+Also help: Drayff, Gre4ko, Rac00n
+*/
+
+// українізація типів даних
+#define ціле int
+#define беззнакове unsigned
+#define знакове signed
+#define з_комою float
+#define подвійний_з_комою double
+#define символ char
+#define константа const
+#define логічне bool
+#define довге long
+#define дорівнює ==
+#define менше <
+#define більше >
+
+// українізація поширених бібліотек
+#define українець <locale.h>
+#define вікно <Windows.h>
+#define вивід <stdio.h>
+
+
+//українізація циклів та вітвлення
+#define для for
+#define доки while
+#define якщо if
+#define інакше else
+#define робити do
+#define база main
+#define оддай return
+#define вивести printf
+#define мова_консолі SetConsoleCP
+#define мова_виводу_консолі SetConsoleOutputCP
+#define українська 1251
+enum {
+    нуль = 0,
+    один = 1,
+    двієчка = 2,
+    трьошка = 3,
+    чотири = 4,
+    пятьорік = 5,
+    шістка = 6,
+    сім = 7,
+    вісім = 8,
+    девять = 9
+};
